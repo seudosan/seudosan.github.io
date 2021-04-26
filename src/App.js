@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Switch,
   Route,
   Redirect } from 'react-router-dom';
@@ -10,13 +10,13 @@ import NotFound from './components/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={Index} />
         <Route exact path="/error/not-found/" component={NotFound} />
         <Redirect from="*" to="/error/not-found/" />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
