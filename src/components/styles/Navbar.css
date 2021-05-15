@@ -1,0 +1,111 @@
+.Navbar {
+    background-color: var(--color-dark);
+    height: max-content;
+    width: 100%;
+    box-shadow: 0px 0px 8px #090014;
+}
+.Navbar__container {
+  height: 56px;
+  width: 100%;
+  max-width: 1090px;
+  background-color: inherit;
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.Navbar__switch {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+.Navbar__icon {
+    width: 24px;
+    margin: auto;
+}
+.Nav-menu {
+  all: none;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+.Nav-menu__item {
+    height: 100%;
+}
+.Nav-menu__links {
+    display: flex;
+    height: 100%;
+    padding: 0 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-white);
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.Nav-menu__links:hover {
+    border-bottom: var(--color-soft-secondary) 3px solid;
+    color: var(--color-soft-secondary);
+}
+.Nav-menu__links:active {
+    background-color: rgb(255, 255, 255, .3);
+}
+@media screen and (max-width: 960px) {
+    .Nav-menu {
+        all: none;
+        display: none; /* Se agrego "none" debido a un problema de visibilidad */
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 32px 0;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .Nav-menu--active {
+        display: flex;
+        background: var(--color-dark);
+        left: 0;
+        opacity: 1;
+        transition: all 0.6s ease;
+        z-index: 1;
+    }
+    .Navbar__switch {
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* top: 0;
+        right: 0;
+        transform: translate(-100%, 60%); */
+        cursor: pointer;
+    }
+    .Navbar__switch:active {
+        background-color: rgb(255, 255, 255, .3);
+        border-radius: 100%;
+    }
+    .Nav-menu__item {
+        all: unset;
+        width: 100%;
+    }
+    .Nav-menu__links {
+        padding: 12px 0;
+        width: 100%;
+        cursor: pointer;
+        color: var(--color-white);
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+    .Nav-menu__links:hover {
+        border-bottom: none;
+        color: var(--color-soft-secondary);
+    }
+}

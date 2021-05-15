@@ -1,0 +1,11 @@
+.LogoIcon {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.LogoIcon__logo {
+    height: 30px;
+}
+.LogoIcon__letter {
+    height: 30px;
+}
