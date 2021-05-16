@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d509e991.chunk.css",
-    "main.js": "/static/js/main.eefb9887.chunk.js",
-    "main.js.map": "/static/js/main.eefb9887.chunk.js.map",
+    "main.css": "/static/css/main.aad2c377.chunk.css",
+    "main.js": "/static/js/main.b47fb85b.chunk.js",
+    "main.js.map": "/static/js/main.b47fb85b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a40d7952.js",
     "runtime-main.js.map": "/static/js/runtime-main.a40d7952.js.map",
     "static/js/2.4a453dae.chunk.js": "/static/js/2.4a453dae.chunk.js",
     "static/js/2.4a453dae.chunk.js.map": "/static/js/2.4a453dae.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d509e991.chunk.css.map": "/static/css/main.d509e991.chunk.css.map",
+    "static/css/main.aad2c377.chunk.css.map": "/static/css/main.aad2c377.chunk.css.map",
     "static/js/2.4a453dae.chunk.js.LICENSE.txt": "/static/js/2.4a453dae.chunk.js.LICENSE.txt",
+    "static/media/arrow-down-icon.48308bea.svg": "/static/media/arrow-down-icon.48308bea.svg",
     "static/media/bars-icon.5e343917.svg": "/static/media/bars-icon.5e343917.svg",
     "static/media/close-icon.da60763a.svg": "/static/media/close-icon.da60763a.svg",
     "static/media/letter-logo.04b3ee83.svg": "/static/media/letter-logo.04b3ee83.svg",
@@ -18,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a40d7952.js",
     "static/js/2.4a453dae.chunk.js",
-    "static/css/main.d509e991.chunk.css",
-    "static/js/main.eefb9887.chunk.js"
+    "static/css/main.aad2c377.chunk.css",
+    "static/js/main.b47fb85b.chunk.js"
   ]
 }
